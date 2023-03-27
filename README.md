@@ -1,6 +1,7 @@
 # <img src="karate-core/src/main/resources/karate-logo.svg" height="60" width="60"/> Karate
 ## Test Automation Made `Simple.`
 [![Maven Central](https://img.shields.io/maven-central/v/com.intuit.karate/karate-core.svg)](https://mvnrepository.com/artifact/com.intuit.karate/karate-core) [![Build Status](https://travis-ci.org/intuit/karate.svg?branch=master)](https://travis-ci.org/intuit/karate) [![GitHub release](https://img.shields.io/github/release/intuit/karate.svg)](https://github.com/intuit/karate/releases) [![Support Slack](https://img.shields.io/badge/support-slack-red.svg)](https://github.com/intuit/karate/wiki/Support) [![Twitter Follow](https://img.shields.io/twitter/follow/KarateDSL.svg?style=social&label=Follow)](https://twitter.com/KarateDSL)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmaxmckone7%2Fkarate.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmaxmckone7%2Fkarate?ref=badge_shield)
 
 Karate is the only open-source tool to combine API test-automation, [mocks](karate-netty), [performance-testing](karate-gatling) and even [UI automation](karate-core) into a **single**, *unified* framework. The BDD syntax popularized by Cucumber is language-neutral, and easy for even non-programmers. Powerful JSON & XML assertions are built-in, and you can run tests in parallel for speed.
 
@@ -1182,6 +1183,9 @@ Given request
   </S:Body>
   </S:Envelope>
   """
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmaxmckone7%2Fkarate.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmaxmckone7%2Fkarate?ref=badge_large)
 
 # example of a payload assertion in-line
 Then match response ==
